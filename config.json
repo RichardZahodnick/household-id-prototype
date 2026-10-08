@@ -1,0 +1,60 @@
+{
+  "seed": 11,
+  "start_date": "2025-01-01",
+  "days": 365,
+  "households": 600,
+
+  "campaign": {
+    "start_day": 0,
+    "length_days": 60,
+    "share_of_households_targeted": 0.7,
+    "impression_chance_per_tv_day": 0.4
+  },
+
+  "ip_changes": {
+    "speed": 1.0,
+    "stable_share": 0.35,
+    "stable_avg_days": 500,
+    "typical_share": 0.45,
+    "typical_avg_days": 120,
+    "frequent_share": 0.20,
+    "frequent_avg_days": 30,
+    "spare_addresses_per_100_homes": 150
+  },
+
+  "tv": {
+    "ad_requests_visible_all_year": true,
+    "heavy_share": 0.40,
+    "heavy_chance_per_day": 0.75,
+    "regular_share": 0.35,
+    "regular_chance_per_day": 0.30,
+    "light_share": 0.20,
+    "light_chance_per_day": 0.08,
+    "rare_share": 0.05,
+    "rare_chance_per_day": 0.02,
+    "ad_id_resets_per_year": 0.06
+  },
+
+  "site": {
+    "shopping_episodes_per_year": 3.0,
+    "extra_visits_per_episode": 1.3,
+    "conversion_chance_per_episode": 0.5,
+    "email_chance_on_ordinary_visit": 0.08,
+    "cookie_avg_life_days": 90,
+    "laptop_ownership": 0.6,
+    "laptop_use_share": 0.4
+  },
+
+  "where_people_browse": {
+    "phone":  {"home": 0.55, "cellular": 0.33, "work": 0.05, "public": 0.03, "friend": 0.04},
+    "laptop": {"home": 0.72, "cellular": 0.00, "work": 0.20, "public": 0.04, "friend": 0.04}
+  },
+
+  "resolver": {
+    "confirm_days": 2,
+    "fresh_days": 10,
+    "stale_days": 30,
+    "hold_days": 30,
+    "move_window_days": 14
+  }
+}
